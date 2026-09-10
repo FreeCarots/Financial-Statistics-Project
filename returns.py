@@ -1,6 +1,5 @@
 import math
 
-
 # calculates a simple return value
 def simple_return(price_old, price_new):
 
