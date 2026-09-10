@@ -5,8 +5,8 @@ import math
 def simple_return(price_old, price_new):
 
     # prevents divide by zero error
-    if price_old == 0:
-        raise ValueError("price_old cannot be zero")
+    if price_old <= 0:
+        raise ValueError("price_old and price_new cannot be less than or equal to zero")
 
     return (price_new - price_old) / price_old
 
